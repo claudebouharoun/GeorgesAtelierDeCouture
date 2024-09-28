@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_margin="20dp">
+
+    <EditText
+        android:id="@+id/editText_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Customer Name"
+        android:fontFamily="@font/uifontregular"/>
+
+    <EditText
+        android:id="@+id/editText_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:fontFamily="@font/uifontregular"/>
+
+    <EditText
+        android:id="@+id/editText_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        android:fontFamily="@font/uifontregular"/>
+
+    <EditText
+        android:id="@+id/editText_measurements"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Measurements (Height, Waist, Chest, etc.)"
+        android:fontFamily="@font/uifontregular"/>
+
+    <Button
+        android:id="@+id/button_save_customer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:fontFamily="@font/uifontbold"/>
+</LinearLayout>
